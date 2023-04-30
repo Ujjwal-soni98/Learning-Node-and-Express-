@@ -10,3 +10,7 @@ if(input[2]=='add')
 else{
     console.log("invalid input");
 }   
+//console.log(__dirname);
+// setInterval(()=>{
+//     console.log('hello world')
+// },1000)
