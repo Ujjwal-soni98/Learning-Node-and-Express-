@@ -3,4 +3,10 @@ const secret ='super secret';
 const john='john';
 const peter= 'peter'; 
 //console.log(module)
-module.exports={ john, peter}
+const sub = (x,y) => {
+    return x-y;
+}
+const add = (x,y) => {
+    return x+y;
+}
+module.exports={ john, peter, add, sub}
